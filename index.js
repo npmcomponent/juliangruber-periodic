@@ -1,4 +1,4 @@
-var EventEmitter = require('events').EventEmitter;
+var EventEmitter = require('juliangruber-events').EventEmitter;
 
 module.exports = periodic;
 

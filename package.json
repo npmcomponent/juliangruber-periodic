@@ -1,31 +1,7 @@
 {
-  "name": "periodic",
+  "name": "juliangruber-periodic",
   "description": "Reliable periodic events.",
   "version": "0.0.2",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/juliangruber/periodic.git"
-  },
-  "homepage": "https://github.com/juliangruber/periodic",
-  "main": "index.js",
-  "scripts": {
-    "test": "tape test/*.js"
-  },
-  "testling" : {
-    "files" : "test/*.js",
-    "browsers" : [
-      "ie/6..latest",
-      "chrome/20..latest",
-      "firefox/3.6..latest",
-      "safari/5.0.5..latest",
-      "opera/11.0..latest",
-      "iphone/6", "ipad/6"
-    ]
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "tape": "~0.3.0"
-  },
   "keywords": [
     "timer",
     "setTimeout",
@@ -35,10 +11,8 @@
     "repeated",
     "periodic"
   ],
-  "author": {
-    "name": "Julian Gruber",
-    "email": "mail@juliangruber.com",
-    "url": "http://juliangruber.com"
+  "dependencies": {
+    "juliangruber-events": "git://github.com/npmcomponent/juliangruber-events.git"
   },
   "license": "MIT"
 }
